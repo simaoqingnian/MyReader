@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.MyReader" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">@color/myreader_background</item>
+        <item name="android:statusBarColor">@color/myreader_status</item>
+        <item name="android:navigationBarColor">@color/myreader_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

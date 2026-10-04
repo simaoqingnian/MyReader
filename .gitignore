@@ -1,0 +1,14 @@
+.gradle/
+.gradle-home/
+.android-home/
+analytics.settings
+build/
+*/build/
+local.properties
+*.iml
+.idea/
+/prefs_b_after.txt
+/window.xml
+/window_after_visible.xml
+/window_bar.xml
+/window_reverify.xml

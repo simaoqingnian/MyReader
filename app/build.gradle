@@ -1,0 +1,22 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.myreader.app"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.myreader.app"
+        minSdk 23
+        targetSdk 35
+        testInstrumentationRunner "com.myreader.app.ReaderInstrumentation"
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
